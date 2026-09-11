@@ -1,0 +1,11 @@
+{
+    "nome": "Nadi",
+    "sala": "biblioteca",
+    "inventario": [
+        {
+            "id": "item_1",
+            "nome": "Mapa",
+            "descricao": "Um mapa antigo e desgastado do labirinto."
+        }
+    ]
+}

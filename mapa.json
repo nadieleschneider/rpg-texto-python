@@ -1,0 +1,84 @@
+{
+  "saguao": {
+    "id": "saguao",
+    "nome": "Saguão Principal",
+    "descricao_ambiente": "Um grande saguão, úmido, mal iluminado, com tochas penduradas na parede",
+    "conexoes": {
+      "norte": "corredor",
+      "leste": "quarto"
+    },
+    "itens": []
+  },
+  "corredor": {
+    "id": "corredor",
+    "nome": "Corredor",
+    "descricao_ambiente": "Um corredor estreito, com paredes de pedra e chão de madeira rangendo a cada passo",
+    "conexoes": {
+      "sul": "saguao",
+      "leste": "biblioteca",
+      "norte": "labirinto"
+    },
+    "itens": []
+  },
+  "biblioteca": {
+    "id": "biblioteca",
+    "nome": "Biblioteca",
+    "descricao_ambiente": "Uma biblioteca antiga, com estantes altas cheias de livros empoeirados e cheiro de mofo",
+    "conexoes": {
+      "oeste": "corredor",
+      "leste": "cozinha"
+    },
+    "itens": [
+      {
+        "id": "item_1",
+        "nome": "Mapa",
+        "descricao": "Um mapa antigo e desgastado do labirinto."
+      }
+    ]
+  },
+  "cozinha": {
+    "id": "cozinha",
+    "nome": "Cozinha",
+    "descricao_ambiente": "Uma cozinha de pedra, com fogão de lenha, panelas enferrujadas e um cheiro de comida antiga",
+    "conexoes": {
+      "oeste": "biblioteca"
+    },
+    "itens": [
+      {
+        "id": "item_2",
+        "nome": "Chaves de Ouro",
+        "descricao": "Chaves de ouro brilhantes."
+      }
+    ]
+  },
+  "labirinto": {
+    "id": "labirinto",
+    "nome": "Labirinto",
+    "descricao_ambiente": "Um labirinto sombrio, com caminhos enredados e um cheiro de mofo",
+    "conexoes": {
+      "sul": "corredor"
+    },
+    "itens": [
+      {
+        "id": "item_3",
+        "nome": "Lanterna",
+        "descricao": "Uma lanterna sem pilhas."
+      }
+    ]
+  },
+  "quarto": {
+    "id": "quarto",
+    "nome": "Quarto",
+    "descricao_ambiente": "Um quarto simples, com uma cama, uma mesa e uma cadeira",
+    "conexoes": {
+      "oeste": "saguao"
+    },
+    "itens": [
+      {
+        "id": "item_4",
+        "nome": "Pilhas",
+        "descricao": "Pilhas novas e funcionais."
+      }
+    ]
+  }
+}
